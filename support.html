@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Dawnwick</title>
+<style>
+  :root {
+    --ground: #F6F0E6; --card: #FFFFFF; --ink: #1F1A17;
+    --ink-2: rgba(31,26,23,.66); --ink-3: rgba(31,26,23,.45);
+    --line: rgba(31,26,23,.12); --accent: #C4520F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #14162B; --card: #1E2140; --ink: #EDECF2;
+      --ink-2: rgba(237,236,242,.66); --ink-3: rgba(237,236,242,.45);
+      --line: rgba(237,236,242,.12); --accent: #F5B62B;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--ink);
+    font: 400 17px/1.6 -apple-system, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 56px 20px 96px; }
+  h1 { font-size: 34px; font-weight: 700; letter-spacing: -.02em; line-height: 1.15; margin: 0 0 8px; }
+  .lead { font-size: 19px; color: var(--ink-2); margin: 0 0 36px; }
+  h2 { font-size: 20px; font-weight: 600; letter-spacing: -.01em; margin: 36px 0 10px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .qa { border-top: 1px solid var(--line); padding: 18px 0 4px; }
+  .qa h3 { font-size: 17px; font-weight: 600; margin: 0 0 6px; }
+  .qa p { color: var(--ink-2); margin: 0 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; margin: 24px 0; }
+  .card h2 { margin-top: 0; }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); color: var(--ink-3); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dawnwick Support</h1>
+  <p class="lead">Something not working, or an idea for the app? Write to us — a real person reads every message.</p>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p><a href="mailto:muhammadali.numonovm@gmail.com">muhammadali.numonovm@gmail.com</a></p>
+    <p>Please include your iPhone model and iOS version. If an alarm did not ring, also tell us whether the phone was locked, in Silent mode, or in a Focus. That is usually enough to find the cause.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <div class="qa">
+    <h3>My alarm did not ring</h3>
+    <p>Open Settings › Dawnwick and check that <b>Alarms &amp; Timers</b> is allowed. Without it, iOS will not let the app ring through Silent mode or a Focus. The app shows a warning banner on the Alarms tab when this permission is missing.</p>
+  </div>
+
+  <div class="qa">
+    <h3>How do I stop the alarm?</h3>
+    <p>By finishing the mission. That is the point of the app — there is no one-tap Stop. If you set a snooze limit, you can snooze until the limit is reached.</p>
+  </div>
+
+  <div class="qa">
+    <h3>I cannot complete my mission</h3>
+    <p>If a mission needs hardware or a permission that is unavailable — the camera for QR codes, the pedometer for steps — Dawnwick replaces it with a Math mission so you are never locked out. You can change the mission in the alarm editor.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Managing or cancelling Premium</h3>
+    <p>Subscriptions are managed by Apple: Settings › your name › Subscriptions. Cancelling there stops the renewal; Premium stays active until the end of the paid period. To restore a purchase on a new device, open Dawnwick › Settings › Restore Purchases.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Where is my sleep data stored?</h3>
+    <p>On your iPhone. Dawnwick reads sleep from Apple Health and never uploads it. See the <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <div class="qa">
+    <h3>Does the microphone record me?</h3>
+    <p>No. Sleep noise monitoring measures how loud the room is, and nothing else. No audio is recorded, saved or sent anywhere. The feature is optional.</p>
+  </div>
+
+  <footer>Dawnwick · <a href="privacy.html">Privacy Policy</a> · Muhammadali Nomonov</footer>
+</main>
+</body>
+</html>
